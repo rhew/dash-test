@@ -25,7 +25,7 @@ Follow the instructions from Amazon on how to pair the Dash **but when it asks y
 Detecting Button Presses
 ---
 1. Install _scapy_. This varies by platform, so do a Google search, or start on [this page](http://www.secdev.org/projects/scapy/doc/installation.html/ "Installing scapy").
-2. Install the other python requriements by running `pip install -r requriements.txt`
+2. Install the other python requriements by running `pip install -r requirements.txt`
 3. Find out the ethernet MAC address of your Dash by looking at your Wifi router's logs after pressing the Dash's button.  The ethernet MAC address will be a number that looks something like _74:c2:46:4a:52:af_.
 4. Edit test.py to modify the MAC address in the _mac_to_action_ dictionary (on line 21) to be the MAC address of your Dash button.  It **must** be lowercase.
 5. Run the script by executing `python ./test.py`
